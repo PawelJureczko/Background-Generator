@@ -6,16 +6,25 @@ body.style.background="linear-gradient(to right, "
 + color1.value
 +", "
 +color2.value+")";
-
 function setColor(){
     body.style.background = 
     "linear-gradient(to right, "
     + color1.value
     +", "
     +color2.value+")";
-}
+    h3.innerHTML="linear-gradient(to right, "
+    + color1.value
+    +", "
+    +color2.value+")";}
+
+
 
 color1.addEventListener("input", setColor);
 
 color2.addEventListener("input", setColor);
 
+
+h3.innerHTML="linear-gradient(to right, "
++ color1.value
++", "
++color2.value+")";
