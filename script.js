@@ -35,7 +35,7 @@ console.log(color1.value);
 random.addEventListener("click", function(){
     color1.value='#'+(Math.random()*0xFFFFFF<<0).toString(16);
 
-    color2.value="#"+Math.round(Math.random()*89+10)+""+Math.round(Math.random()*89+10)+""+Math.round(Math.random()*89+10);
+    color2.value='#'+(Math.random()*0xFFFFFF<<0).toString(16);
 
     setColor();
     //body.style.background
